@@ -4,8 +4,8 @@ metadata:
   name: hello-world-hem
   description: Hello World example
 spec:
-  type: grpc
+  type: openapi
   lifecycle: deprecated
-  owner: team-c
+  owner: team-a
   definition: |
     //definition
