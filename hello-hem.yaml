@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world-hem
+  description: Hello World example
+spec:
+  type: grpc
+  lifecycle: deprecated
+  owner: team-c
+  definition: |
