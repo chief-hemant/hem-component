@@ -3,6 +3,10 @@ kind: API
 metadata:
   name: hello-world-hem
   description: Hello World example
+  links:
+    - url: https://petstore.swagger.io/
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: deprecated
